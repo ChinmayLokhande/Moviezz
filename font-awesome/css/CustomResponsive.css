@@ -1,0 +1,225 @@
+body{
+    background-size: cover;
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background:url(C:\Bitnami\wampstack-7.1.27-1\apache2\htdocs\MovieDB\images\loginb.jpg);
+    -webkit-filter:blurr(8px);  
+}
+.header{
+    width:100%;
+    height:60px;
+    background:rgba(0,150,0,0.8);
+    position:relative;
+    top:0px;
+}
+.wrap-container{
+    width:80%;
+    margin:0px auto;
+}
+.brand-images{
+    margin-left: 2px;
+    width:50px;
+    height:50px;
+    padding:10px 0px;
+}
+.menus ul li{
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    padding:20px;
+    line-height: 1.5;
+    color:white;
+}
+.menus ul li:hover{
+    background:rgba(0,150,0,1) 100% fixed;
+    background-size: cover;
+}
+.menus ul a{
+    text-decoration: none;                                                                                                                                                
+}
+
+.header-images{
+    float:left;
+}
+.menus{
+    float:right;
+}
+.menus ul{
+    padding: 0px;
+}
+.active{
+    background: rgba(0,150,0,1);
+}
+.wrapper-content{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background:url(C:/Bitnami/wampstack-7.1.27-1/apache2/htdocs/MovieDB/images/1.jpg);
+    background-position:center;
+}
+.wrapper-content h1{
+    color:green;
+    font-size: 40px;
+    -webkit-text-stroke:20px #00ff66;
+    -moz-text-stroke:1px #00ff66;
+    margin-bottom: 0px;
+    text-shadow: 3px 2px white;
+}
+.wrapper-content p{
+    color: white;
+    border: 10px black;
+}
+.explore{
+    color: white;
+    font-size:25px;
+    border-radius:50px;
+    background:linear-gradient(rgba(0,255,55,0.6),rgba(0,255,55,0.4));
+    cursor:pointer;
+}
+.explore hover{
+    background:linear-gradient(rgba(0,255,55,0.7),rgba(0,255,55,0.4))
+}
+
+
+.service{
+    width:100%;
+    min-height: 400px;
+    box-shadow:0px -10px 20px white;
+    position:relative;
+}
+.service h1{
+    margin: 0px;
+}
+.service-container{
+    width:80%;
+    min-height: 400px;
+    background: white;
+    position: absolute;
+    left: 10%;
+    right:10%;
+    top:-20px;
+    box-shadow:0px -10px 20px white;
+}
+.service h1{
+    text-align: center;
+    color:rgba(0,71,0,64);
+    padding-top: 40px;
+    padding-bottom: 5%;
+}
+.div-box{
+    width: 25%;
+    min-height: 200px; 
+    text-align: center;
+    background: white;
+    float: left;
+}
+.div-box i{
+    font-size: 60px;
+    color:#00ff66;
+    margin-bottom: 20px; 
+}
+.about-us{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    background:url(C:/Bitnami/wampstack-7.1.27-1/apache2/htdocs/MovieDB/images/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+.about-us h1{
+    font-size: 38px;
+    text-align: center;
+    color: green;
+}
+.wrap-container p{
+    color: black;
+    font-size: 30px;
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    min-height: 300px;
+    background:linear-gradient(rgba(0,100,55,3.5),darkgreen)
+}
+.wrap-container p1{
+    color:white;
+    font-size:28;
+}
+.footer .widgets{
+    width: 20%;
+    min-height: 220px;
+    padding: 2.5%;
+    float: left;
+}
+
+/*This is second page css*/
+.login-box{
+    width: 320px;
+    height: 420px;
+    background:#000;
+    color: #fff;
+    top:60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+   left: calc(50% - 50px);
+}
+.avatar h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;   
+}
+.login-box p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],input[type="password"]{
+   border: none;
+   border-bottom: 1px solid #001000x;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #00ff66;
+    font-size: 16px; 
+}
+.login-box input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #00ff66;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: darkgreen;
+    color: #000;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.login-box a:hover{
+    color:#00ff66;
+}
